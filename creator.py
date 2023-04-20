@@ -7,11 +7,11 @@ print("Let's name the brave adventurers: ")
 print()
 
 # The user should determine 5 character names
-character1 = input("Character 1: ")
-character2 = input("Character 2: ")
-character3 = input("Character 3: ")
-character4 = input("Character 4: ")
-character5 = input("Character 5: ")
+name1 = input("Character 1: ")
+name2 = input("Character 2: ")
+name3 = input("Character 3: ")
+name4 = input("Character 4: ")
+name5 = input("Character 5: ")
 print()
 
 # If the user has named all characters this will be confirmed here
@@ -32,7 +32,7 @@ elif role_number == 3:
 
 
 # Stats of the characters between 5 and 10 are assigned
-print('"' + character1 + '"', "is a ", char_role)
+print('"' + name1 + '"', "is a ", char_role)
 
 strength = random.randint(5, 10)
 magic = random.randint(5, 10)
@@ -86,7 +86,7 @@ elif role_number == 3:
 
 
 # Stats of the characters between 5 and 10 are assigned
-print('"' + character2 + '"', "is a ", char_role)
+print('"' + name2 + '"', "is a ", char_role)
 
 strength = random.randint(5, 10)
 magic = random.randint(5, 10)
@@ -140,7 +140,7 @@ elif role_number == 3:
 
 
 # Stats of the characters between 5 and 10 are assigned
-print('"' + character3 + '"', "is a ", char_role)
+print('"' + name3 + '"', "is a ", char_role)
 
 strength = random.randint(5, 10)
 magic = random.randint(5, 10)
@@ -194,7 +194,7 @@ elif role_number == 3:
 
 
 # Stats of the characters between 5 and 10 are assigned
-print('"' + character4 + '"', "is a ", char_role)
+print('"' + name4 + '"', "is a ", char_role)
 
 strength = random.randint(5, 10)
 magic = random.randint(5, 10)
@@ -248,7 +248,7 @@ elif role_number == 3:
 
 
 # Stats of the characters between 5 and 10 are assigned
-print('"' + character5 + '"', "is a ", char_role)
+print('"' + name5 + '"', "is a ", char_role)
 
 strength = random.randint(5, 10)
 magic = random.randint(5, 10)
